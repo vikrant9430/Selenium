@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AssertTitle">
+  <test name="GoogleTest">
+    <classes>
+      <class name="Google_001.GoogleTest.AppTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- AssertTitle -->
