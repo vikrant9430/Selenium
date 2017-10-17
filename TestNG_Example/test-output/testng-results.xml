@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78" started-at="2017-10-13T05:09:27Z" finished-at="2017-10-13T05:09:27Z">
+    <groups>
+      <group name="Car">
+        <method signature="grouping.Car1()[pri:0, instance:testng_group.grouping@cb5822]" name="Car1" class="testng_group.grouping"/>
+        <method signature="grouping.Car2()[pri:0, instance:testng_group.grouping@cb5822]" name="Car2" class="testng_group.grouping"/>
+        <method signature="grouping.Sedan1()[pri:0, instance:testng_group.grouping@cb5822]" name="Sedan1" class="testng_group.grouping"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="grouping.Sedan1()[pri:0, instance:testng_group.grouping@cb5822]" name="Sedan1" class="testng_group.grouping"/>
+      </group> <!-- Sedan Car -->
+    </groups>
+    <test name="Practice Grouping" duration-ms="78" started-at="2017-10-13T05:09:27Z" finished-at="2017-10-13T05:09:27Z">
+      <class name="testng_group.grouping">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:testng_group.grouping@cb5822]" name="Car1" duration-ms="19" started-at="2017-10-13T10:39:27Z" finished-at="2017-10-13T10:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:testng_group.grouping@cb5822]" name="Car2" duration-ms="3" started-at="2017-10-13T10:39:27Z" finished-at="2017-10-13T10:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:testng_group.grouping@cb5822]" name="Sedan1" duration-ms="2" started-at="2017-10-13T10:39:27Z" finished-at="2017-10-13T10:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- testng_group.grouping -->
+    </test> <!-- Practice Grouping -->
+  </suite> <!-- Suite -->
+</testng-results>

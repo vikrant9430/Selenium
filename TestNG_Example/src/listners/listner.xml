@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite-Listener" parallel="none">
+ 
+ <listeners>
+ 
+ <listener class-name="listners.Listener"></listener>
+ 
+ </listeners>
+ 
+ <test name="Batch-Listeners">
+ 
+ <classes>
+ 
+ <class name="listners.TestListener" />
+ 
+ </classes>
+ 
+ </test> 
+ 
+</suite>
